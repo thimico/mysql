@@ -1,4 +1,5 @@
-FROM thimico/alpine:super
+FROM thimico/alpine
+MAINTAINER Thiago Menezes <thimico@gmail.com>
 
 WORKDIR /app
 VOLUME /app
